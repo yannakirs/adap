@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 ;
+    padding: 0;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  
+  header {
+    background-color: #ffffff;
+    text-align: center;
+    color: #704b0e;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 25px;
+    padding-bottom: 25px;
+    font-family: 'Pacifico', cursive;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #704b0e;
+    text-decoration: overline #704a0e79;
+    font-family: 'Cormorant SC', serif;
+
+
+  }
+
+  
+  .about {
+
+    background-size: cover;
+    color: #807e7e;
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    font-size: 18px;
+    max-width: 600px auto;
+    padding: 50px 200px 80px 200px;
+  }
+  @media (max-width: 768px) {
+    .about {
+        padding: 10px;
+
+        font-size: 10px;
+   
+}
+  }
+  
+
+  
+  .products {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+    
+  }
+  
+  .product {
+
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product img {
+    width: 100%;
+    min-width: 200px;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .product h3{
+   padding: 3px;
+    font-size: 23px;
+    font-family: 'Cormorant SC', serif;
+
+  }
+  .product p{
+    font-size: 18px;
+    padding: 3px;
+    font-family: 'Cormorant SC', serif;
+     color:#704b0e;
+  }
+ .btn{
+    display: inline-block;
+  background-color: #704b0e;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Jost', sans-serif;
+  font-size: 13px;
+  }
+ .btn:hover{
+    background-color: #704a0e99;
+    padding: 13px;
+ }
+.delivery{
+max-width: 100%;
+ background-size: cover;
+margin: 80px 0 80px 0;
+ color: #807e7e;
+ text-align: center;
+ font-family: 'Jost', sans-serif;
+ font-size: 18px;
+ padding: 50px 200px 80px 200px;
+}
+.delivery h2{
+    font-size: 30px;
+    color:#704b0e;
+    font-family: 'Cormorant SC', serif;
+}
+@media (max-width: 768px) {
+    .delivery {
+        padding: 10px;
+
+        font-size: 10px;
+   
+}
+  }
+
+  footer {
+min-width: 100%;
+font-size: 15px;
+    background-color: #704a0ea7;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    padding: 20px;
+    text-align: center;
+  }
+  @media (max-width: 768px) {
+    footer {
+        padding: 10px;
+
+        font-size: 10px;
+   
+}
+  }
